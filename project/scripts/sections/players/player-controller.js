@@ -3,6 +3,6 @@ angular
     .module('app.core')
     .controller('PlayerController', function($scope, PageValues) {
     //Set page title and description
-    PageValues.title = "PLAYER";
+    PageValues.title = "PLAYERS";
     PageValues.description = "A listing of all availble players.";
 });
