@@ -1,4 +1,11 @@
 'use strict';
+
+require('./app.core');
+require('./app.config');
+require('./app.routes');
+require('./app.services');
+require('./modules');
+
 angular.module('app', ['ngRoute',
                         'ngAnimate',
                         'angularMoment',
