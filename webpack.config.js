@@ -193,7 +193,13 @@ module.exports = function makeWebpackConfig () {
    */
   config.devServer = {
     contentBase: './project/public',
-    stats: 'minimal'
+    stats: 'minimal',
+    proxy: {
+      '/api': {
+        target: 'http://localhost:9999',
+        pathRewrite: {'^/api' : ''}
+      }
+    }
   };
 
   return config;

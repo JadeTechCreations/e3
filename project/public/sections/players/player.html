@@ -1,1 +1,21 @@
 <h1>player listing</h1>
+<div class="stats" ng-repeat="stat in stats">
+  <div>{{stat.player}}</div>
+  <div>{{stat.passing.att}}</div>
+  <div>{{stat.passing.cmp}}</div>
+  <div>{{stat.passing.yd}}</div>
+  <div>{{stat.passing.td}}</div>
+  <div>{{stat.passing.inter}}</div>
+  <div>{{stat.passing.rate}}</div>
+  <div>{{stat.rushing.att}}</div>
+  <div>{{stat.rushing.yd}}</div>
+  <div>{{stat.rushing.avg}}</div>
+  <div>{{stat.rushing.td}}</div>
+  <div>{{stat.recieving.att}}</div>
+  <div>{{stat.recieving.cmp}}</div>
+  <div>{{stat.recieving.yd}}</div>
+  <div>{{stat.recieving.avg}}</div>
+  <div>{{stat.recieving.td}}</div>
+  <div>{{stat.misc.fl}}</div>
+  <div>{{stat.misc.fpts}}</div>
+</div>
