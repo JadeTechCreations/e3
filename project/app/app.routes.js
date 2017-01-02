@@ -14,6 +14,10 @@ function config ($routeProvider) {
             templateUrl: 'sections/players/player.html',
             controller: 'PlayerController as player'
         })
+        .when('/players/:type', {
+            templateUrl: 'sections/players/player.html',
+            controller: 'PlayerController as player'
+        })
         .when('/teams', {
             templateUrl: 'sections/teams/team.html',
             controller: 'TeamController as team'

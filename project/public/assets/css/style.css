@@ -208,3 +208,6 @@ footer .container .glyphicon-heart {
 .label-dark {
     background-color: #333;
 }
+.stats > div{
+  display: inline-block;
+}
